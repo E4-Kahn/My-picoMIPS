@@ -1,0 +1,36 @@
+
+module decoder_tb;
+	//input
+	logic [2:0] opcode;
+	logic flag;
+	
+	//output
+	logic PCincr,PCrelbranch;
+	logic [2:0] ALUfunc;
+	logic imm;
+	logic w;
+	
+    decoder #(.n(8)) dut (
+        .opcode(opcode),
+        .ALUfunc(ALUfunc),
+		  .flag(flag),
+        .imm(imm),
+		  .PCincr(PCincr),
+		  .PCrelbranch(PCrelbranch),
+        .w(w)
+    );
+	 
+    // Clock generation
+    logic clk = 0;
+    always #5 clk = ~clk;
+
+initial
+begin
+      opcode=3'b000; //LD
+#10ns opcode=3'b001; //BNE
+#10ns opcode=3'b010; //BEQ
+#10ns opcode=3'b100; //ADD
+#10ns opcode=3'b101; //ADDI
+#10ns opcode=3'b110; //MUL
+end
+endmodule

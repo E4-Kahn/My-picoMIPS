@@ -1,0 +1,7 @@
+//-----------------------------------------------------
+// File Name   : alu_tb.sv
+// Function    : testbench for picoMIPS alu module
+// modified from the reference version of tjk
+// Author:  yelin
+// Last revised: 26 Mar 2024
+//-----------------------------------------------------

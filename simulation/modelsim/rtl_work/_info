@@ -1,0 +1,256 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/workspace/quartus1/simulation/modelsim
+T_opt
+!s110 1711562705
+V85CMDc>S3lSVTdeM87k_f2
+04 11 4 work picoMIPS_tb fast 0
+=1-54b20380d8e9-66045fcf-1c8-51f4
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+valu
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1711562700
+!i10b 1
+!s100 GE<`8ZcaH0C]C8gO?e9Ca0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW;CHQTD^=og8;mT9H2?570
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1711560931
+8H:/workspace/quartus1/alu.sv
+FH:/workspace/quartus1/alu.sv
+!i122 7
+L0 10 67
+Z5 OL;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1711562699.000000
+!s107 H:/workspace/quartus1/alucodes.sv|H:/workspace/quartus1/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/alu.sv|
+!i113 0
+Z6 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -sv -work work +incdir+H:/workspace/quartus1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcounter
+R2
+!s110 1711562696
+!i10b 1
+!s100 gW^h44G_ZbnVl_b>=H1AQ1
+R3
+I@9e@_5cNH^:H5h4X9X7;l0
+R4
+S1
+R0
+w1711390297
+8H:/workspace/quartus1/counter.sv
+FH:/workspace/quartus1/counter.sv
+!i122 3
+L0 3 11
+R5
+r1
+!s85 0
+31
+!s108 1711562696.000000
+!s107 H:/workspace/quartus1/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/counter.sv|
+!i113 0
+R6
+R7
+R1
+vcpu
+R2
+!s110 1711562699
+!i10b 1
+!s100 m[ikiE`H4OIe19ZXUoUVl1
+R3
+IS0O`FNV^h3F90]Aa@VL;00
+R4
+S1
+R0
+w1711379499
+8H:/workspace/quartus1/cpu.sv
+FH:/workspace/quartus1/cpu.sv
+!i122 6
+L0 10 58
+R5
+r1
+!s85 0
+31
+Z8 !s108 1711562698.000000
+!s107 H:/workspace/quartus1/alucodes.sv|H:/workspace/quartus1/cpu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/cpu.sv|
+!i113 0
+R6
+R7
+R1
+vdecoder
+R2
+!s110 1711562698
+!i10b 1
+!s100 zFU@kFWYlETU1^b:D2@103
+R3
+IU0eHIB63hQ^coTKOKN=>Q1
+R4
+S1
+R0
+w1711476577
+8H:/workspace/quartus1/decoder.sv
+FH:/workspace/quartus1/decoder.sv
+!i122 5
+L0 11 55
+R5
+r1
+!s85 0
+31
+R8
+!s107 H:/workspace/quartus1/opcodes.sv|H:/workspace/quartus1/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/decoder.sv|
+!i113 0
+R6
+R7
+R1
+vpc
+R2
+Z9 !s110 1711562695
+!i10b 1
+!s100 E=OQW2M;2jh[M4G1YcZjK3
+R3
+I7I]]WT=::m=Qz^Q]VF_`]1
+R4
+S1
+R0
+w1711550898
+8H:/workspace/quartus1/pc.sv
+FH:/workspace/quartus1/pc.sv
+!i122 2
+L0 8 21
+R5
+r1
+!s85 0
+31
+!s108 1711562695.000000
+!s107 H:/workspace/quartus1/pc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/pc.sv|
+!i113 0
+R6
+R7
+R1
+vpicoMIPS4test
+R2
+R9
+!i10b 1
+!s100 o=_=TJQBNE7LBZoFVk97I3
+R3
+I;UiAnImi2f8S@5E]`d>]T1
+R4
+S1
+R0
+w1711390274
+8H:/workspace/quartus1/picoMIPS4test.sv
+FH:/workspace/quartus1/picoMIPS4test.sv
+!i122 1
+L0 2 12
+R5
+r1
+!s85 0
+31
+!s108 1711562694.000000
+!s107 H:/workspace/quartus1/picoMIPS4test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/picoMIPS4test.sv|
+!i113 0
+R6
+R7
+R1
+npico@m@i@p@s4test
+vpicoMIPS_tb
+R2
+!s110 1711562701
+!i10b 1
+!s100 fLzoAf7TNgiTLDh:S;z[h3
+R3
+I8>?L2HNgSEF?_hh[f1:AM2
+R4
+S1
+R0
+w1711470158
+8H:/workspace/quartus1/picoMIPS_tb.sv
+FH:/workspace/quartus1/picoMIPS_tb.sv
+!i122 8
+L0 8 54
+R5
+r1
+!s85 0
+31
+!s108 1711562700.000000
+!s107 H:/workspace/quartus1/picoMIPS_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/picoMIPS_tb.sv|
+!i113 0
+R6
+R7
+R1
+npico@m@i@p@s_tb
+vprog
+R2
+!s110 1711562697
+!i10b 1
+!s100 0SAa0SD4b1PPNXm0QOWYJ0
+R3
+IQzQ8dGZgQ2U4iD;J0JaLO0
+R4
+S1
+R0
+w1711379286
+8H:/workspace/quartus1/prog.sv
+FH:/workspace/quartus1/prog.sv
+!i122 4
+L0 7 16
+R5
+r1
+!s85 0
+31
+!s108 1711562697.000000
+!s107 H:/workspace/quartus1/prog.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/prog.sv|
+!i113 0
+R6
+R7
+R1
+vregs
+R2
+!s110 1711562694
+!i10b 1
+!s100 l^YA31id^:KGDK62AS4P91
+R3
+I;Y5T5TjdUQSUUa;bmP82W1
+R4
+S1
+R0
+w1711480668
+8H:/workspace/quartus1/regs.sv
+FH:/workspace/quartus1/regs.sv
+!i122 0
+L0 14 44
+R5
+r1
+!s85 0
+31
+!s108 1711562693.000000
+!s107 H:/workspace/quartus1/regs.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+H:/workspace/quartus1|H:/workspace/quartus1/regs.sv|
+!i113 0
+R6
+R7
+R1
